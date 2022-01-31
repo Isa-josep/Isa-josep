@@ -1,0 +1,8 @@
+def tabla (x):
+    for i in range (0,11):
+        r=i*x
+        
+        print (i,"x",x, "=",r)
+        
+re=eval(input("ingrese el numero que decea multiplicar; "))
+tabla (re)
